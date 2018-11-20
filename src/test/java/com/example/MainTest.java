@@ -1,3 +1,5 @@
+package com.example;
+
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
 

@@ -1,3 +1,5 @@
+package com.example;
+
 import org.hexworks.zircon.api.*;
 import org.hexworks.zircon.api.component.Label;
 import org.hexworks.zircon.api.grid.TileGrid;
