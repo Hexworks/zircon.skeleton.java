@@ -1,0 +1,54 @@
+group "com.example.zircon.skeleton"
+version "0.0.1"
+
+buildscript {
+	repositories {
+		mavenLocal()
+		jcenter()
+		mavenCentral()
+		maven { url "https://plugins.gradle.org/m2/" }
+	}
+}
+
+ext {
+	zirconVersion = "2018.5.27-PREVIEW"
+	junitVersion = "4.12"
+	mockitoVersion = "1.10.19"
+	assertjVersion = "3.6.2"
+	slf4jVersion = "1.7.25"
+
+	libraries = [
+			slf4j_api       : "org.slf4j:slf4j-api:$slf4jVersion",
+			slf4j_simple    : "org.slf4j:slf4j-simple:$slf4jVersion",
+			zircon_core_jvm : "org.hexworks.zircon:zircon.core-jvm:$zirconVersion",
+			zircon_jvm_swing: "org.hexworks.zircon:zircon.jvm.swing:$zirconVersion",
+			junit           : "junit:junit:$junitVersion",
+			mockito         : "org.mockito:mockito-all:$mockitoVersion",
+			assertj         : "org.assertj:assertj-core:$assertjVersion"
+	]
+}
+
+repositories {
+	mavenLocal()
+	mavenCentral()
+	jcenter()
+	maven { url 'https://jitpack.io' }
+}
+
+apply plugin: 'java'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile libraries.slf4j_api
+    compile libraries.slf4j_simple
+
+    compile libraries.zircon_core_jvm
+    compile libraries.zircon_jvm_swing
+
+    testCompile libraries.junit
+    testCompile libraries.mockito
+    testCompile libraries.assertj
+
+}
+
