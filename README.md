@@ -20,7 +20,7 @@ That's all!
 
 ## Setting up
 
-In order to set up a local dev environment on your computer you need to follow these steps
+In order to set up a local dev environment on your computer you need to follow these steps:
 
 ## Check the project out. (optional)
 
@@ -35,7 +35,7 @@ Alternatively you can just download and extract the latest release form the [Rel
 
 It is highly recommended to use IntelliJ IDEA for this project. You can get the free community
 version from [this page](https://www.jetbrains.com/idea/download/#section=mac). You don't need
-to buy the Ultimate version, the Community Edition is perfectly fine
+to buy the Ultimate version, the Community Edition is perfectly fine.
 
 Importing the project is pretty simple. When IDEA is started you need to
 
