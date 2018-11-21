@@ -1,6 +1,6 @@
 # Zircon Java Skeleton Project
 
-This is a skeleton project for Zircon users which can be used to get started with Zircon.
+This is a skeleton project for Zircon users to help get started with Zircon.
 
 ## Getting started
 
