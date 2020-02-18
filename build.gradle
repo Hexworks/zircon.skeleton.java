@@ -1,5 +1,5 @@
 group "com.example.zircon.skeleton"
-version "0.0.2"
+version "1.0.1"
 
 buildscript {
     repositories {
