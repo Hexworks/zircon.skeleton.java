@@ -1,41 +1,40 @@
 group "com.example.zircon.skeleton"
-version "0.0.1"
+version "0.0.2"
 
 buildscript {
-	repositories {
-		mavenLocal()
-		jcenter()
-		mavenCentral()
-		maven { url "https://plugins.gradle.org/m2/" }
-	}
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        jcenter()
+        maven { url "https://plugins.gradle.org/m2/" }
+    }
     dependencies {
         classpath "com.github.jengelman.gradle.plugins:shadow:4.0.2"
     }
 }
 
 ext {
-	zirconVersion = "2018.12.25-XMAS"
-	junitVersion = "4.12"
-	mockitoVersion = "1.10.19"
-	assertjVersion = "3.6.2"
-	slf4jVersion = "1.7.25"
+    zirconVersion = "2020.0.2-PREVIEW"
+    junitVersion = "4.12"
+    mockitoVersion = "1.10.19"
+    assertjVersion = "3.6.2"
+    slf4jVersion = "1.7.25"
 
-	libraries = [
-			slf4j_api       : "org.slf4j:slf4j-api:$slf4jVersion",
-			slf4j_simple    : "org.slf4j:slf4j-simple:$slf4jVersion",
-			zircon_core_jvm : "org.hexworks.zircon:zircon.core-jvm:$zirconVersion",
-			zircon_jvm_swing: "org.hexworks.zircon:zircon.jvm.swing:$zirconVersion",
-			junit           : "junit:junit:$junitVersion",
-			mockito         : "org.mockito:mockito-all:$mockitoVersion",
-			assertj         : "org.assertj:assertj-core:$assertjVersion"
-	]
+    libraries = [
+            slf4j_api       : "org.slf4j:slf4j-api:$slf4jVersion",
+            slf4j_simple    : "org.slf4j:slf4j-simple:$slf4jVersion",
+            zircon_core_jvm : "org.hexworks.zircon:zircon.core-jvm:$zirconVersion",
+            zircon_jvm_swing: "org.hexworks.zircon:zircon.jvm.swing:$zirconVersion",
+            junit           : "junit:junit:$junitVersion",
+            mockito         : "org.mockito:mockito-all:$mockitoVersion",
+            assertj         : "org.assertj:assertj-core:$assertjVersion"
+    ]
 }
 
 repositories {
-	mavenLocal()
-	mavenCentral()
-	jcenter()
-	maven { url 'https://jitpack.io' }
+    mavenLocal()
+    mavenCentral()
+    jcenter()
 }
 
 apply plugin: 'java'
