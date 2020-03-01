@@ -1,4 +1,4 @@
-group "com.example.zircon.skeleton"
+group "com.example"
 version "1.0.1"
 
 buildscript {
@@ -15,10 +15,10 @@ buildscript {
 
 ext {
     zirconVersion = "2020.1.0-RELEASE"
-    junitVersion = "4.12"
+    junitVersion = "4.13"
     mockitoVersion = "1.10.19"
-    assertjVersion = "3.6.2"
-    slf4jVersion = "1.7.25"
+    assertjVersion = "3.15.0"
+    slf4jVersion = "1.7.30"
 
     libraries = [
             slf4j_api       : "org.slf4j:slf4j-api:$slf4jVersion",
