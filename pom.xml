@@ -45,12 +45,12 @@
         <dependency>
             <groupId>org.hexworks.zircon</groupId>
             <artifactId>zircon.core-jvm</artifactId>
-            <version>2020.1.0-RELEASE</version>
+            <version>2020.2.0-RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.hexworks.zircon</groupId>
             <artifactId>zircon.jvm.swing</artifactId>
-            <version>2020.1.0-RELEASE</version>
+            <version>2020.2.0-RELEASE</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>

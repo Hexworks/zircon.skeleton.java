@@ -9,3 +9,4 @@
 **/*.ipr
 **/node_modules/
 **/.DS.Store
+**/target/

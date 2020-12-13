@@ -1,5 +1,5 @@
 group "com.example"
-version "1.0.1"
+version "1.1.0"
 
 buildscript {
     repositories {
@@ -9,12 +9,12 @@ buildscript {
         maven { url "https://plugins.gradle.org/m2/" }
     }
     dependencies {
-        classpath "com.github.jengelman.gradle.plugins:shadow:4.0.2"
+        classpath "com.github.jengelman.gradle.plugins:shadow:5.2.0"
     }
 }
 
 ext {
-    zirconVersion = "2020.1.0-RELEASE"
+    zirconVersion = "2020.2.0-RELEASE"
     junitVersion = "4.13"
     mockitoVersion = "1.10.19"
     assertjVersion = "3.15.0"
