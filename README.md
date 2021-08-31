@@ -13,7 +13,7 @@ before you can start coding.
     on your system if you want to clone / fork this project. You can get it [here](https://git-scm.com/).
     Alternatively you can download the zip / tarball from the [Releases page](https://github.com/Hexworks/zircon.skeleton.java/releases).
 2. *Java*
-    This project uses Java so you must install a Java *JDK* to get started. We suggest [OpenJDK](https://openjdk.java.net/install/)
+    This project uses Java, so you must install a Java *JDK* to get started. We suggest [OpenJDK](https://openjdk.java.net/install/)
     but any other JDK will do. Java 8 or above is recommended.
 
 That's all!
@@ -52,6 +52,8 @@ Importing the project is pretty simple. When IDEA is started you need to
 
 ## Notes about Gradle
 
+> Note that a Maven `pom.xml` file is also supplied for those who would want to use Maven instead.
+
 This project uses the [Gradle build tool](https://docs.gradle.org/current/userguide/userguide.html).
 You don't need to be a Gradle expert to get started with the project. Gradle is bundled to
 this project and can be invoked by running the `gradlew` script.
@@ -73,7 +75,7 @@ Running this command will create an artifact in the `build/libs` directory which
 class so you can run your project right away by typing this command:
 
 ```bash
-java -jar build/libs/zircon.skeleton.java-1.0.1.jar
+java -jar build/libs/zircon.skeleton.java-1.2.0.jar
 ```
 
 You'll be presented by a new window with a greeting:
